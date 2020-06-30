@@ -1,0 +1,48 @@
+
+.romantic{
+    background-color: #eb9486;
+}
+.action{
+    background-color:#364156;
+}
+.comedy{
+    background-color: #ffe74c;
+}
+.favourite{
+   background-color: #331e38;
+}
+.line{
+    display: flex;
+    margin-left:250px;
+    margin-right: 200px;
+    justify-content:space-between;
+    flex-direction: row;
+    margin-top: 160px;
+}
+.rom{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d62839;
+    font-size: 55px;
+}
+img:hover{
+    transform: scale(1.2);
+}
+.act{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #11151c;
+    font-size: 55px;
+}
+.com{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #11151c;
+    font-size: 55px;
+}
+.fav{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #706993;
+    font-size: 55px;
+}

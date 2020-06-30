@@ -1,0 +1,118 @@
+html,body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.nav{
+    background-color:#042331 ;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 15vh;
+    overflow: hidden;
+}
+.navitem{
+    list-style-type: none;
+    display: flex;
+    padding: 0rem;
+    margin-left:500px;
+}
+.navlink{
+    padding: 20px 20px;
+    font-size: 26px;
+    position: relative;
+}
+.navlink :hover{
+    background-color: wheat;
+    border-radius: 6px;
+}
+a{
+    padding: 20px 0;
+text-decoration: none;
+color: grey;
+}
+ul{
+    list-style-type: none;
+}
+.sidebar{
+    position: fixed;
+    width: 100px;
+    height: 100%;
+    background: #042331;
+    border-radius: 3px;
+}
+.sidebar header{
+    font-size: 22px;
+    color:white;
+    text-align: center;
+    line-height: 70px;
+    background: #063146;
+    user-select: none;
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 70px;
+    font-size: 16px;
+    color: white;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid black;
+}
+ul li:hover a{
+    color: black;
+}
+.sidebar ul a i{
+    margin-right: 1px;
+}
+.contoiner{
+   background-color: #f4f4f9;
+}
+.line1{
+    display: flex;
+    margin-left:250px;
+    margin-right: 200px;
+    justify-content:space-between;
+    flex-direction: row;
+}
+.line2{
+    display: flex;
+    margin-left:250px;
+    margin-right: 200px;
+    justify-content:space-between;
+    flex-direction: row;
+}
+.line3{
+    display: flex;
+    margin-left:250px;
+    margin-right: 200px;
+    justify-content:space-between;
+    flex-direction: row;
+}
+.hhh{
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color: rgba(245, 222, 179, 0.438);
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    visibility: hidden;
+}
+.a1{
+    position: relative;
+}
+.a1:hover>.hhh{
+    visibility: visible;
+}
+.contoiner{
+    overflow: scroll;
+}
+
+
